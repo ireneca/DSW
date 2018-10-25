@@ -30,7 +30,7 @@ if (isset($_POST["enviar"])){
             header("Location: game.php?name=".urlencode($nombre));
         }
         else {
-            $mensage = "Contraseña incorrecta";
+            $mensage = "ContraseÃ±a incorrecta";
         }
     }
 }
@@ -42,10 +42,10 @@ echo $mensage;
     		<input type="text" name="nombre" size="100" id="nombre" />
 		</p>
 		<p>
-    		<label for="contraseña">Contraseña: </label> 
-    		<input type="password"" name="contrasena" size="100" id="contraseña" />
+    		<label for="contraseÃ±a">ContraseÃ±a: </label> 
+    		<input type="password" name="contrasena" size="100" id="contraseÃ±a" />
 		</p>
-		<input type="submit" value="Iniciar sesión" name="enviar"/>
+		<input type="submit" value="Iniciar sesiÃ³n" name="enviar"/>
 	</form>
 </body>
 </html>
