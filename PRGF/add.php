@@ -29,7 +29,7 @@ $pdo=conectar();
       $ano = test_input($_POST['ano']);
       $kilometros = test_input($_POST['kilometros']);
       if (is_numeric($kilometros) && is_numeric($ano)){
-        if ($marca == "" && $modelo == "") {
+        if ($marca == "" || $modelo == "") {
           $_SESSION['error'] = "El campo marca y modelo son obligatorios";
           header("Location: add.php");
           return;
