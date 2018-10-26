@@ -1,0 +1,11 @@
+<?php
+session_name("tragaperras-2");
+session_start();
+session_destroy();
+session_name("tragaperras-3");
+session_start();
+session_destroy();
+session_name("tragaperras-4");
+session_start();
+session_destroy();
+?>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+  padding: 0 20px;
+  background-color: #F6F6FF;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: black 4px solid;
+  border-spacing: 10px;
+}
+
+table td.img {
+  border: black 4px solid;
+  padding: 10px;
+}
+
+table td.img img {
+  width: 160px;
+}
+
+table td.marcador {
+  vertical-align: top;
+  text-align: center;
+}
+
+table td.marcador p {
+  font-size: 300%;
+  border: black 4px solid;
+  padding: 2px;
+}
+
+table td.marcador button {
+  margin: 16px 0 16px 0;
+  width: 100%;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  border: black 2px solid;
+  border-radius: 3px;
+}
+
+footer {
+  border-top: black 2px solid;
+  margin-top: 2em;
+  font-weight: bold;
+}
