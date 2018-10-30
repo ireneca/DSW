@@ -55,7 +55,6 @@ $pdo=conectar();
         $sql = "SELECT * FROM autos ";
         $resultado = $pdo->query($sql);
       }
-      echo $sql;
       $numfilas= $resultado->rowCount();
       echo "<h2>Automoviles</h2>";
       if ( isset($_SESSION['error']) ) {
