@@ -2,7 +2,7 @@
 //variables BD
 define("DB_HOST", "localhost");
 define("DB_USUARIO", "irene");
-define("DB_PASSWORD", "majada");
+define("DB_PASSWORD", "++++");
 define("DB_NOMBRE", "proypreci");
 //conectar con BD
 define("SGBD", "mysql:host=" . DB_HOST . ";dbname=" . DB_NOMBRE);
